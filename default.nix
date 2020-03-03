@@ -7,7 +7,7 @@ let
   f = { mkDerivation, base, hedgehog, stdenv }:
       mkDerivation {
         pname = "math-extras";
-        version = "0.1.0.1";
+        version = "0.1.1.0";
         src = ./.;
         libraryHaskellDepends = [ base ];
         testHaskellDepends = [ base hedgehog ];

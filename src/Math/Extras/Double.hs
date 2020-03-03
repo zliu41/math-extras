@@ -152,5 +152,5 @@ fromInt64RawBits :: Int64 -> Double
 fromInt64RawBits = unsafeCoerce
 
 -- | Returns a 'Double' with the same bit representation as the given 'Word64'.
-fromWord64RawBits :: Int64 -> Double
+fromWord64RawBits :: Word64 -> Double
 fromWord64RawBits = unsafeCoerce

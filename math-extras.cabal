@@ -1,7 +1,7 @@
 cabal-version:       2.4
 
 name:                math-extras
-version:             0.1.0.1
+version:             0.1.1.0
 synopsis:            A variety of mathematical utilities
 description:         A variety of mathematical utilities not covered in base.
 category:            Math, Numeric
